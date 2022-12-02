@@ -1,0 +1,81 @@
+body{
+    background-color:rgb(230, 230, 230) ;
+    background-image: url("55.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+  #pp{
+    font-size: 40px;
+    text-align: center;
+  }
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .input-container .icon{
+    position:absolute;
+    padding-top: 7px;
+    padding-left: 219px;
+    height: 15px;
+    font-size: 25px;
+    color: rgb(112, 52, 180);
+  }
+  img{
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin-left: -10px;
+    }
+.input{
+    border-width : 0px 0px 2px 0px ;
+    width:250px;
+    height: 55px;
+    
+  }
+  #forget{
+    margin-left: 35px;
+  }
+  .remem{
+    font-size: 25px;
+  }
+  
+  button{
+    cursor: pointer;
+    padding:10px 50px 10px 50px;
+    margin-right:5px;
+    border-radius: 2px;
+    background-color: #89CFF0;
+    color: white;
+    font-size: 20px;
+  }
+ 
+  .container{
+    background-color: white;
+    width: 437px;
+    height: 455px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin-top: 56px;
+
+  }
+  .centered{
+    font-size: 40;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style:italic;
+    
+  }
+  .btn{
+    font-size:24px;
+    margin-top: 10px;
+    background-color: blueviolet;
+  }
