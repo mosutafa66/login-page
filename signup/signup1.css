@@ -1,0 +1,60 @@
+body{
+background-image: url("3.png");
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size: 950px;
+
+
+}
+.container{
+    margin-left: 1250px;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-left: 25px;
+    background-color: rgb(250, 250, 250);
+    width: 420px;
+    height: 880px;
+}
+
+div{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+label{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bolder;
+}
+::placeholder{
+    font-size: larger;
+    font-weight:bold;
+}
+input{
+    display: block;
+    width: 235px;
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: sans-serif;
+    
+}
+.agrees{
+    width: 19px;
+    height: 18px;
+    margin-top: 17px;
+}
+.signup{
+    font-size: large;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(160, 88, 228);
+}
+.signin{
+    margin-left: 224px;
+    font-size: larger;
+    text-decoration: none;
+    height: 5px;
+}
